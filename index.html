@@ -6,6 +6,7 @@
         <title>rzurad.github.io</title>
 
         <link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/main.css">
     </head>
@@ -41,131 +42,15 @@
 
             <h2>Things I've Done</h2>
 
-            <div class="row">
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="https://github.com/rzurad/waveform" target="_new">Waveform</a></h4>
-                        <div class="image waveform"></div>
-                        <p>
-                            C program for FreeBSD that generates a waveform image of an audio file using ffmpeg's C libraries.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">C</span>
-                            <span class="tag">ffmpeg</span>
-                            <span class="tag">libpng</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://rzurad.github.io/TEXTp" target="_new">TEXTp</a></h4>
-                        <div class="image textp"></div>
-                        <p>
-                            Ember-CLI app that converts any web-friendly image into <a href="http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html" target="_new">YouTube's 2010 April Fool's Joke</a>.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">Ember-CLI</span>
-                            <span class="tag">Web Workers</span>
-                            <span class="tag">HTML5 Canvas</span>
-                            <span class="tag">Bootstrap</span>
-                            <span class="tag">LESS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://rzurad.github.com/black-mesa-flash-site" target="_new">Black Mesa Flash Site</a></h4>
-                        <div class="image black-mesa"></div>
-                        <p>
-                            The original website for the Half-Life 2 remake project <a href="http://www.blackmesasource.com" target="_new">Black Mesa</a>.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">Flash</span>
-                            <span class="tag">XML</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://www.wiredrive.com/10806/storage-usage-report/" target="_new">Wiredrive Storage Usage</a></h4>
-                        <div class="image wd-storage"></div>
-                        <p>
-                            A usage statistics page to help Wiredrive administrators keep track of system storage and plan usage.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">YUI3</span>
-                            <span class="tag">d3js</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://www.wiredrive.com/9152/software-release-new-wiredrive-reports/" target="_new">Wiredrive Reports</a></h4>
-                        <div class="image wd-reports"></div>
-                        <p>
-                            Rebuilt Wiredrive reporting application, allowing clients to see layers of analytics information, from system activity to presentation sends/views.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">YUI3</span>
-                            <span class="tag">Raphael.JS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://www.wiredrive.com/7227/introducing-the-new-html5-uploader/" target="_new">Wiredrive Uploader</a></h4>
-                        <div class="image wd-upload"></div>
-                        <p>
-                            Rebuilt Wiredrive Uploader. Allows users to upload files into their Wiredrive system via an HTML5 drag-and-drop interface, Java, or old-school form posts.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">YUI3</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://www.wiredrive.com/7611/new-presentations-are-here/" target="_new">Wiredrive Presentations</a></h4>
-                        <div class="image wd-presentations"></div>
-                        <p>
-                            Rebuilt Wiredrive Presentations.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">YUI3</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="work">
-                        <h4><a href="http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/" target="_new">Wiredrive Wordpress Player</a></h4>
-                        <div class="image wiredrive-player"></div>
-                        <p>
-                            A Wordpress plugin that allows clients to embed Wiredrive Presentations into Wordpress-powered websites.
-                        </p>
-                        <div class="tags">
-                            <span class="tag">PHP</span>
-                            <span class="tag">jQuery</span>
-                            <span class="tag">Adobe Strobe</span>
-                            <span class="tag">HTML5 Video</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="work-grid"></div>
 
             <div class="footer">
                 &copy; 2015 Richard Zurad
             </div>
         </div>
+
+        <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
 
