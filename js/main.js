@@ -6,63 +6,91 @@
             className: 'textp',
             imageSrc: 'https://raw.githubusercontent.com/rzurad/TEXTp/master/public/assets/images/backgrounds/titanfall.png',
             href: 'https://rzurad.github.io/TEXTp',
-            description: "Ember-CLI app that converts any web-friendly image into <a href=\"http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html\" target=\"_new\">YouTube's 2010 April Fool's Joke</a>",
+            description: "Built an Ember-CLI app that converts any web-friendly image into <a href=\"http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html\" target=\"_new\">YouTube's 2010 April Fool's Joke</a>",
             tags: ['Ember-CLI', 'Web Workers', 'HTML5 Canvas', 'Bootstrap', 'LESS']
         }, {
             title: 'Waveform',
             imageSrc: 'https://raw.githubusercontent.com/rzurad/waveform/master/test/examples/parachute_mono.png',
             href: 'https://github.com/rzurad/waveform',
-            description: "C program for FreeBSD that generates a waveform image of an audio file using ffmpeg's C libraries",
+            description: "Wrote a C program for FreeBSD that generates a waveform image of an audio file using ffmpeg's C libraries",
             tags: ['C', 'ffmpeg', 'libpng'],
             className: 'waveform',
         }, {
             title: 'DS-Extensions',
             imageSrc: '',
             href: 'https://gist.github.com/rzurad/348c436ada5260ad16fe',
-            description: 'Proof-of-concept for a shim library that augments Ember Data with support for paginated responses from the persistence layer and sparse record arrays.',
+            description: 'Created a proof-of-concept for a shim library that augments Ember Data with support for sparse RecordArrays and paginated responses from the persistence layer',
             tags: ['Ember Data', 'Ember.JS'],
             className: 'ds-extensions'
+        }, {
+            title: 'Wiredrive RSS Examples',
+            imageSrc: '',
+            href: 'https://github.com/wiredrive/wiredrive_rss',
+            description: 'Wrote sample code for proxying and consuming Wiredrive Presentation RSS feeds.',
+            tags: ['PHP', 'jQuery', 'Flash', 'RSS', 'JSONP'],
+            className: 'rss'
         }, {
             title: 'Wiredrive Storage Report',
             imageSrc: '',
             href: 'http://www.wiredrive.com/10806/storage-usage-report/',
-            description: 'A usage statistics page to help Wiredrive administrators keep track of system storage and plan usage.',
+            description: 'Designed and built a usage statistics page to help Wiredrive administrators keep track of system storage and plan usage',
             tags: ['YUI3', 'd3js'],
             className: 'wd-storage'
         }, {
             title: 'Wiredrive Wordpress Player',
             imageSrc: '',
             href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
-            description: 'A Wordpress plugin that allows clients to embed Wiredrive Presentations into Wordpress-powered websites.',
+            description: 'Built a Wordpress plugin that allows clients to embed Wiredrive Presentations into Wordpress-powered websites',
             tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
             className: 'wiredrive-player'
         }, {
             title: "Wiredrive Reports",
             imageSrc: '',
             href: 'http://www.wiredrive.com/9152/software-release-new-wiredrive-reports/',
-            description: 'Rebuilt Wiredrive reporting application, allowing clients to see layers of analytics information, from system activity to presentation sends/views.',
+            description: 'Helped rewrite the web client of the Wiredrive reporting application, which allows clients to see layers of analytics information, from system activity to presentation sends/views',
             tags: ['YUI3', 'Raphael.JS'],
             className: 'wd-reports'
         }, {
             title: 'Wiredrive Presentations',
             imageSrc: '',
             href: 'http://www.wiredrive.com/7611/new-presentations-are-here/',
-            description: 'Rebuilt Wiredrive Presentations.',
+            description: 'Helped rebuild the web client of Wiredrive Presentations, transitioning them from YUI2 to YUI3',
             tags: ['YUI3'],
             className: 'wd-presentations'
         }, {
             title: 'Wiredrive Uploader',
             imageSrc: '',
             href: 'http://www.wiredrive.com/7227/introducing-the-new-html5-uploader/',
-            description: 'Rebuilt Wiredrive Uploader. Allows users to upload files into their Wiredrive system via an HTML5 drag-and-drop interface, Java, or old-school form posts.',
+            description: 'Rebuilt the Wiredrive uploader, which allows users to upload files into their Wiredrive system via an HTML5 drag-and-drop interface, Java, or old-school form posts',
             tags: ['YUI3'],
             className: 'wd-upload'
+        }, {
+            title: 'Mahalo.com',
+            imageSrc: '',
+            href: '',
+            description: 'Helped build the Mahalo 4.0 platform for the company\'s shift to focusing on creating "original how-to content. Worked in both Django and JavaScript.',
+            tags: ['Django', 'jQuery', 'Backbone.JS'],
+            className: 'Mahalo'
+        }, {
+            title: 'Pong',
+            imageSrc: '',
+            href: '',
+            description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees',
+            tags: ['Flash'],
+            className: 'pong'
+        }, {
+            title: 'Midwest Copier Exchange',
+            imageSrc: '',
+            href: '',
+            description: 'Built the web portal for Midwest Copier Exchange, a copier wholesaler, which consisted of a user portal, a message board, an an inventory tracking system.',
+            tags: ['.NET 2.0'],
+            className: 'midwest-copier'
         }, {
             title: "Black Mesa Flash Site",
             imageSrc: '',
             href: 'http://rzurad.github.com/black-mesa-flash-site',
             description: 'The original website for the Half-Life 2 remake project <a href="http://www.blackmesasource.com" target="_new">Black Mesa</a>.',
-            tags: ['Flash', 'XML'],
+            tags: ['Flash'],
             className: 'black-mesa'
         }],
 
