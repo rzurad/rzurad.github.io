@@ -19,7 +19,7 @@ window.rz = {
         title: 'Tree of Life JSON',
         imageSrc: './assets/img/tree-of-life.jpg',
         href: 'http://github.com/rzurad/tree-of-life',
-        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently make a snarky comment at XML\'s expense.',
+        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently made a snarky comment at XML\'s expense.',
         tags: ['Node.JS'],
         date: '2014',
         className: 'tol'
