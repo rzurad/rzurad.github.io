@@ -1,0 +1,43 @@
+<images>
+    <photo>
+    	<url>javascript:NewWindow=window.open('files/cgw12-05.pdf','newWin'); NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/cgw_dec05_th.jpg</thumbnail>
+	<description>Computer Gaming World // North America</description>
+    </photo>
+    <photo>
+
+<url>javascript:NewWindow=window.open('images/pcpp_bms_1.html','newWin','width=606,height=700,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/pcpp_bms_1_th.jpg</thumbnail>
+        <description>PC PowerPlay Magazine // Australia</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/nsa_bms_1.html','newWin','width=500,height=700,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/nsa_bms_1_th.jpg</thumbnail>
+        <description>NSAGames // E-Mag</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/bms_pcguk_1.html','newWin','width=416,height=241,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/bms_pcguk_1_th.jpg</thumbnail>
+        <description>PC Gamer UK - Article 1// United Kingdom</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/bms_pcguk_2.html','newWin','width=536,height=700,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/bms_pcguk_2_th.jpg</thumbnail>
+        <description>PC Gamer UK - Article 2// United Kingdom</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr3_atomicaus_bms.html','newWin','width=432,height=650,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr3_atomicaus_bms_th.jpg</thumbnail>
+        <description>Atomic Magazine // Australia</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr3_gamestar_bms.html','newWin','width=605,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr3_gamestar_bms_th.jpg</thumbnail>
+        <description>Gamestar // Germany</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/pcgamersweden.html','newWin','width=285,height=247,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/pcgamersweden_th.jpg</thumbnail>
+        <description>PC Gamer Sweden // Sweden</description>
+    </photo>
+</images>

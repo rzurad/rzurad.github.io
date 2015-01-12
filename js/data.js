@@ -106,7 +106,7 @@ window.rz = {
     }, {
         title: "Black Mesa",
         imageSrc: './assets/img/black-mesa.png',
-        href: 'http://rzurad.github.com/black-mesa-flash-site',
+        href: '/bms/index.html',
         description: 'Created the original website for the Half-Life 2 remake project <a href="http://www.blackmesasource.com" target="_new">Black Mesa</a>, and subsequently learned what ranking 3rd place in ModDB\'s 2004 Best Website Award does to one\'s ego.',
         tags: ['Flash'],
         date: '2004',

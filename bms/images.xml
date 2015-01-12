@@ -1,0 +1,42 @@
+<images>
+	<image>
+		<path>images/angel.jpg</path>
+		<url>http://www.kirupa.com</url>
+		<caption>nr 1</caption>
+	</image>
+	<image>
+		<path>images/apple.jpg</path>
+		<url>http://www.kirupaforum.com</url>
+		<caption>nr 2</caption>
+	</image>
+	<image>
+		<path>images/aqua.jpg</path>
+		<url>http://www.lostinbeta.com</url>
+		<caption>nr 3</caption>
+	</image>
+	<image>
+		<path>images/chrome.jpg</path>
+		<url>http://www.senocular.com</url>
+		<caption>nr 4</caption>
+	</image>
+	<image>
+		<path>images/circles.jpg</path>
+		<url>http://www.voetsjoeba.com</url>
+		<caption>nr 5</caption>
+	</image>
+	<image>
+		<path>images/flower.jpg</path>
+		<url>http://www.syntheticorange.com</url>
+		<caption>nr 6</caption>
+	</image>
+	<image>
+		<path>images/verre.jpg</path>
+		<url>http://www.nowingsnohalo.co.uk</url>
+		<caption>nr 7</caption>
+	</image>
+	<image>
+		<path>images/wave.jpg</path>
+		<url>http://www.eyezberg.com></url>
+		<caption>nr 8</caption>
+	</image>
+</images>

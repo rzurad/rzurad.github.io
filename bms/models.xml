@@ -1,0 +1,52 @@
+<images>
+	<photo>
+	<url>javascript:NewWindow=window.open('images/mr7_50cal.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr7_50cal_th.jpg</thumbnail>
+        <description>.50 Cal Machine Gun // By: NetWarriorDan (Model) and NecEvil (Skin)</description>
+    </photo>
+	<photo>
+	<url>javascript:NewWindow=window.open('images/mr6_apache.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr6_apache.jpg</thumbnail>
+        <description>Marine Apache // By: Retardedmonkey (Model) and Spitfire (Skin)</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr4_glockskinned.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr4_glockskinned_th.jpg</thumbnail>
+        <description>Glock 9mm // By: Sanada (Model) and NecEvil (Skin)</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr2_sentry.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr2_sentry_th.jpg</thumbnail>
+        <description>Sentry Gun // By Sanada</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr2_satchel.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr2_satchel_th.jpg</thumbnail>
+        <description>Satchel Charge & Detonator // By NetWarriorDan, Sproily & JADAMS</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr2_grenades.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr2_grenades_th.jpg</thumbnail>
+        <description>Fragmentation Grenades // By NetWarriorDan & Orcone</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr2_shotgun.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr2_shotgun_th.jpg</thumbnail>
+        <description>Shotgun // By Stimor</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr2_gargantua.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr2_gargantua_th.jpg</thumbnail>
+        <description>High-Detail Gargantua // By Lupus</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr1_m4unskinned.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr1_m4unskinned_th.jpg</thumbnail>
+        <description>M4A1 With Grenade Launcher // By Sproily</description>
+    </photo>
+    <photo>
+	<url>javascript:NewWindow=window.open('images/mr1_humangrunt.html','newWin','width=1024,height=768,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr1_humangrunt_th.jpg</thumbnail>
+        <description>High-Detail Human Grunt // By Lupus</description>
+    </photo>    
+</images>

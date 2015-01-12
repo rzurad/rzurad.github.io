@@ -1,0 +1,23 @@
+<images>
+    <photo>
+	<url>javascript:NewWindow=window.open('sounds/music_indecisive.html','newWin','width=250,height=100,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No'); NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/music_indecisive_th.jpg</thumbnail>
+		<description>Webpage Music High Quality // By Joel Nielsen</description>
+    </photo>
+<photo>
+	<url>javascript:NewWindow=window.open('sounds/music_surfaceTension.html','newWin','width=250,height=100,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No');  NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/mr4_sound1_th.jpg</thumbnail>
+        <description>Surface Tension High Quality Music Clip // By Joel Nielsen</description>
+    </photo>
+<photo>
+	<url>javascript:NewWindow=window.open('sounds/music_onARail.html','newWin','width=250,height=100,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No'); NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/music_onARail_th.jpg</thumbnail>
+		<description>On A Rail Music Clip // By Joel Nielsen</description>
+    </photo>
+<photo>
+	<url>javascript:NewWindow=window.open('sounds/music_weveGotHostiles.html','newWin','width=250,height=100,toolbar=no,location=no,scrollbars=no,menubar=no,status=no,resizable=no,fullscreen=No'); NewWindow.focus();void(0);</url>
+	<thumbnail>images/thumbnails/music_weveGotHostiles_th.jpg</thumbnail>
+		<description>We've Got Hostiles Music Clip // By Joel Nielsen</description>
+    </photo>
+
+</images>
