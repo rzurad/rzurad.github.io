@@ -83,7 +83,7 @@ window.rz = {
         title: 'Mahalo.com',
         imageSrc: './assets/img/mahalo.png',
         href: 'http://www.mahalo.com',
-        description: 'Helped build the Mahalo 4.0 Django platform for creating and managing how-to content. Built parts of the Wiki back-end and built the web front-end client and admin app for the Mahalo.com homepage.<br><br>While hired to help build out the Django back-end, quickly succumbed to a horrifying JavaScript addiction that, to this day, have yet to recover from.',
+        description: 'Helped build the Mahalo 4.0 Django platform for creating and managing how-to content. Built parts of the "Pages" back-end and built the web front-end client/admin app for the Mahalo.com homepage.<br><br>While hired to help build out the Django back-end, quickly succumbed to a horrifying JavaScript addiction that, to this day, have yet to recover from.',
         tags: ['Django', 'MySQL', 'jQuery', 'Backbone.JS'],
         date: '2011',
         className: 'Mahalo'
@@ -114,6 +114,7 @@ window.rz = {
     }, {
         title: 'Influence',
         imageSrc: './assets/img/influence.jpg',
+        href: './maps/influence.zip',
         description: 'Made a small <a href="http://store.steampowered.com/app/70/" target="_new">Half-Life Deathmatch</a> map set inside ancient ruins. Map showcases the accidental discovery that rocket launchers in small hallways are fun.',
         tags: ['Half-Life Deathmatch'],
         date: '2003',
@@ -121,6 +122,7 @@ window.rz = {
     }, {
         title: 'ka_moofed',
         imageSrc: './assets/img/ka_moofed.jpg',
+        href: './maps/ka_moofed.zip',
         description: 'Built a quick knife-only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> for a LAN party. Map showcases a complete inability to think about gameplay mechanics and to instead care about overblown easter eggs.',
         tags: ['Counter-Strike'],
         date: '2002',
@@ -128,6 +130,7 @@ window.rz = {
     }, {
         title: 'cs_pumpo',
         imageSrc: './assets/img/cs_pumpo.jpg',
+        href: './maps/cs_pumpo32.zip',
         description: 'Made a pump-shotgun only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> inspired by cs_deagle5. Map showcases the only map I made that was actually fun to play.',
         tags: ['Counter-Strike'],
         date: '2002',
@@ -135,6 +138,7 @@ window.rz = {
     }, {
         title: 'cs_paraplace',
         imageSrc: './assets/img/cs_paraplace.jpg',
+        href: './maps/cs_paraplace.zip',
         description: 'Constructed an M249-only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a>. Map showcases why you should never build enemy spawn locations within sight of each other.',
         tags: ['Counter-Strike'],
         date: '2002',
@@ -142,6 +146,7 @@ window.rz = {
     }, {
         title: 'de_blaze',
         imageSrc: './assets/img/de_blaze.jpg',
+        href: './maps/de_blaze.zip',
         description: 'Created a bomb defusal map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> set in an Alaskan Telecommunications Facility. Map showcases what happens when you care more about visuals/logistics than actual gameplay.',
         tags: ['Counter-Strike'],
         date: '2002',
@@ -149,6 +154,7 @@ window.rz = {
     }, {
         title: 'ka_iceberg',
         imageSrc: './assets/img/ka_iceberg.jpg',
+        href: './maps/ka_iceberg.zip',
         description: 'Built my first <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> map; a knife-only map set in an iceberg. Map showcases more evidence that the first map you make is absolutely terrible.',
         tags: ['Counter-Strike'],
         date: '2001',
