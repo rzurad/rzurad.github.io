@@ -11,7 +11,7 @@ window.rz = {
         title: 'Waveform',
         imageSrc: './assets/img/waveform.png',
         href: 'https://github.com/rzurad/waveform',
-        description: 'Wrote a C program for FreeBSD that generates a waveform image of an audio file using ffmpeg\'s C libraries. Subsequently developed an unhealthy addiction to <a href="https://www.ffmpeg.org/">ffmpeg</a>.',
+        description: 'Wrote a C program for FreeBSD that generates a waveform image of an audio file using ffmpeg\'s C libraries. Subsequently developed an unhealthy addiction to <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a>.',
         tags: ['C', 'ffmpeg', 'libpng'],
         date: '2014',
         className: 'waveform',
@@ -19,7 +19,7 @@ window.rz = {
         title: 'Tree of Life JSON',
         imageSrc: './assets/img/tree-of-life.png',
         href: 'http://github.com/rzurad/tree-of-life',
-        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations. Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, subsequently making a snarky comment at XML\'s expense.',
+        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently make a snarky comment at XML\'s expense.',
         tags: ['Node.JS'],
         date: '2014',
         className: 'tol'
@@ -35,7 +35,7 @@ window.rz = {
         title: 'Wiredrive RSS Examples',
         imageSrc: './assets/img/rss.png',
         href: 'https://github.com/wiredrive/wiredrive_rss',
-        description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com">Wiredrive</a> Presentation RSS feeds.',
+        description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
         tags: ['PHP', 'jQuery', 'Flash', 'RSS', 'JSONP'],
         date: '2013',
         className: 'rss'
@@ -43,7 +43,7 @@ window.rz = {
         title: 'Wiredrive Storage Report',
         imageSrc: './assets/img/wd-storage.jpg',
         href: 'http://www.wiredrive.com/10806/storage-usage-report/',
-        description: 'Designed and built a usage statistics page to help <a href="http://www.wiredrive.com">Wiredrive</a> administrators keep track of system storage and plan usage.',
+        description: 'Designed and built a usage statistics page to help <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> administrators keep track of system storage and plan usage.',
         tags: ['YUI3', 'd3js'],
         date: '2013',
         className: 'wd-storage'
@@ -51,7 +51,7 @@ window.rz = {
         title: 'Wiredrive Wordpress Player',
         imageSrc: './assets/img/wiredrive-player.jpg',
         href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
-        description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com">Wiredrive</a> Presentations into Wordpress-powered websites.',
+        description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations into Wordpress-powered websites.',
         tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
         date: '2013',
         className: 'wiredrive-player'
@@ -59,7 +59,7 @@ window.rz = {
         title: "Wiredrive Reports",
         imageSrc: './assets/img/wd-reports.png',
         href: 'http://www.wiredrive.com/9152/software-release-new-wiredrive-reports/',
-        description: 'Helped rewrite the web client of the <a href="http://www.wiredrive.com">Wiredrive</a> reporting application, which allows clients to see layers of analytics information, from system activity to presentation sends/views.',
+        description: 'Helped rewrite the web client of the <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> reporting application, which allows clients to see layers of analytics information, from system activity to presentation sends/views.',
         tags: ['YUI3', 'Raphael.JS'],
         date: '2012',
         className: 'wd-reports'
@@ -67,7 +67,7 @@ window.rz = {
         title: 'Wiredrive Presentations',
         imageSrc: './assets/img/wd-presentations.jpg',
         href: 'http://www.wiredrive.com/7611/new-presentations-are-here/',
-        description: 'Helped rebuild the web client of <a href="http://www.wiredrive.com">Wiredrive</a> Presentations, transitioning them from YUI2 to YUI3.',
+        description: 'Helped rebuild the web client of <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations, transitioning them from YUI2 to YUI3.',
         tags: ['YUI3'],
         date: '2012',
         className: 'wd-presentations'
@@ -75,7 +75,7 @@ window.rz = {
         title: 'Wiredrive Uploader',
         imageSrc: './assets/img/wd-upload.jpg',
         href: 'http://www.wiredrive.com/7227/introducing-the-new-html5-uploader/',
-        description: 'Rebuilt the <a href="http://www.wiredrive.com">Wiredrive</a> uploader to allow users to upload files into their Wiredrive system via an HTML5 drag-and-drop interface, Java, or old-school form posts.',
+        description: 'Rebuilt the <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> uploader to allow users to upload files into their Wiredrive system via an HTML5 drag-and-drop interface, Java, or old-school form posts.',
         tags: ['YUI3'],
         date: '2012',
         className: 'wd-upload'
@@ -90,6 +90,7 @@ window.rz = {
     }, {
        title: 'Pong',
         imageSrc: './assets/img/pong.jpg',
+        href: '/pong/index.html',
         description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees.',
         tags: ['Flash'],
         date: '2010',
@@ -103,7 +104,7 @@ window.rz = {
         date: '2009',
         className: 'midwest-copier'
     }, {
-        title: "Black Mesa Flash Site",
+        title: "Black Mesa",
         imageSrc: './assets/img/black-mesa.png',
         href: 'http://rzurad.github.com/black-mesa-flash-site',
         description: 'Created the original website for the Half-Life 2 remake project <a href="http://www.blackmesasource.com" target="_new">Black Mesa</a>, and subsequently learned what ranking 3rd place in ModDB\'s 2004 Best Website Award does to one\'s ego.',
