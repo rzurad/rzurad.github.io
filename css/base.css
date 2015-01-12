@@ -41,7 +41,7 @@ p {
 
 .header > div {
     position: relative;
-    top: 40%;
+    top: 35%;
 }
 
 .header > div.scroll-for-things {
@@ -63,12 +63,6 @@ p {
 
 .scroll-for-things {
     font-size: 10px;
-}
-
-@media screen and (max-height: 430px) {
-    .scroll-for-things {
-        display: none;
-    }
 }
 
 .doing ul {
@@ -150,4 +144,14 @@ p {
 
 .image.pong {
     background-position: center 43%;
+}
+
+@media screen and (max-height: 430px) {
+    .scroll-for-things {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
 }
