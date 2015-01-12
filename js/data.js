@@ -106,8 +106,8 @@ window.rz = {
     }, {
         title: "Black Mesa",
         imageSrc: './assets/img/black-mesa.png',
-        href: '/bms/index.html',
-        description: 'Created the original website for the Half-Life 2 remake project <a href="http://www.blackmesasource.com" target="_new">Black Mesa</a>, and subsequently learned what ranking 3rd place in ModDB\'s 2004 Best Website Award does to one\'s ego.',
+        href: '/black-mesa/index.html',
+        description: 'Created the original website for the Half-Life 2 mod <a href="http://www.blackmesasource.com" target="_new">Black Mesa</a>, and subsequently learned what ranking 3rd place in ModDB\'s 2004 Best Website Award does to one\'s ego.',
         tags: ['Flash'],
         date: '2004',
         className: 'black-mesa'
