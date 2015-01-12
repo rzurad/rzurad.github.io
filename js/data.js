@@ -1,9 +1,9 @@
 window.rz = {
     WORKS: [{
         title: 'TEXTp',
-        imageSrc: './assets/img/textp.png',
+        imageSrc: './assets/img/textp.jpg',
         href: 'https://rzurad.github.io/TEXTp',
-        description: "Built an Ember-CLI app that converts any web-friendly image into <a href=\"http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html\" target=\"_new\">YouTube's 2010 April Fool's Joke</a>.",
+        description: "Built an Ember-CLI app that converts any web-friendly image&mdash;including the background of this very website&mdash;into <a href=\"http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html\" target=\"_new\">YouTube's 2010 April Fool's Joke</a>.",
         tags: ['Ember-CLI', 'Web Workers', 'HTML5 Canvas', 'Bootstrap', 'LESS'],
         date: '2014',
         className: 'textp'
@@ -17,7 +17,7 @@ window.rz = {
         className: 'waveform',
     }, {
         title: 'Tree of Life JSON',
-        imageSrc: './assets/img/tree-of-life.png',
+        imageSrc: './assets/img/tree-of-life.jpg',
         href: 'http://github.com/rzurad/tree-of-life',
         description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently make a snarky comment at XML\'s expense.',
         tags: ['Node.JS'],
@@ -33,7 +33,7 @@ window.rz = {
         className: 'ds-extensions'
     }, {
         title: 'Wiredrive RSS Examples',
-        imageSrc: './assets/img/rss.png',
+        imageSrc: './assets/img/rss.jpg',
         href: 'https://github.com/wiredrive/wiredrive_rss',
         description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
         tags: ['PHP', 'jQuery', 'Flash', 'RSS', 'JSONP'],
@@ -81,7 +81,7 @@ window.rz = {
         className: 'wd-upload'
     }, {
         title: 'Mahalo.com',
-        imageSrc: './assets/img/mahalo.png',
+        imageSrc: './assets/img/mahalo.jpg',
         href: 'http://www.mahalo.com',
         description: 'Helped build the Mahalo 4.0 Django platform for creating and managing how-to content. Built parts of the "Pages" back-end and built the web front-end client/admin app for the Mahalo.com homepage.<br><br>While hired to help build out the Django back-end, quickly succumbed to a horrifying JavaScript addiction that, to this day, have yet to recover from.',
         tags: ['Django', 'MySQL', 'jQuery', 'Backbone.JS'],
@@ -97,7 +97,7 @@ window.rz = {
         className: 'pong'
     }, {
         title: 'Midwest Copier Exchange',
-        imageSrc: './assets/img/mwc.png',
+        imageSrc: './assets/img/mwc.jpg',
         href: 'http://www.midwestcopier.com',
         description: 'Designed and built the web portal for copier wholesaler Midwest Copier Exchange, which consisted of a user portal, a message board, and an inventory tracking system.',
         tags: ['.NET 2.0', 'MS SQL Server 2005'],
