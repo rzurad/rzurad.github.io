@@ -16,7 +16,7 @@ h2 {
 a, a:focus {
     font-weight: 700;
     transition-property: color;
-    transition-duration 0.2s;
+    transition-duration: 0.2s;
 }
 
 p {
@@ -36,6 +36,7 @@ p {
 }
 
 .header {
+    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -50,23 +51,35 @@ p {
     top: 60%;
 }
 
+.slide {
+    position: relative;
+    height: 60%;
+}
+
+.slide .scroll-for-things {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -49px;
+}
+
 .scroll-for-things {
     font-size: 10px;
 }
 
-@media screen and (max-height: 368px) {
+@media screen and (max-height: 430px) {
     .scroll-for-things {
         display: none;
     }
 }
 
-.doing {
-    margin-bottom: 250px;
-}
-
 .doing ul {
     padding-left: 0px;
     list-style-type: none;
+}
+
+.spacer {
+    height: 25%;
 }
 
 .work-grid {
@@ -124,48 +137,22 @@ p {
     font-size: 12px;
 }
 
+.container > .scroll-for-things {
+    position: relative;
+    top: 75px;
+}
+
 .footer {
     margin-top: 150px;
     margin-bottom: 50px;
 }
 
-
-
-
-
-.image.waveform {
-    background-image: url('https://raw.githubusercontent.com/rzurad/waveform/master/test/examples/parachute_mono.png');
-}
-
-.image.textp {
-    background-image: url('https://raw.githubusercontent.com/rzurad/TEXTp/master/public/assets/images/backgrounds/titanfall.png');
-    background-size: initial;
-    background-position: 32% 40%;
-}
-
 .image.black-mesa {
-    background-image: url('http://blackmesasource.com/images/page_logo.png?v1');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #000;
 }
 
-.image.wd-storage {
-    background-image: url('https://cache.wdcdn.net/asset/assetId/4014357/size/max/ts/1408839048/type/project/client/WD-XJ0FJ/4014357_max.jpg?token=997c8490690f6c82ef46a754427dbe06&category=pres&action=thumb');
-}
-
-.image.wiredrive-player {
-    background-image: url('http://marketing.wdcdn.net/wp-content/uploads/2013/04/wd-player.jpg');
-}
-
-.image.wd-presentations {
-    background-image: url('http://marketing.wdcdn.net/wp-content/uploads/2012/05/SU_May_FtrImg_Top.jpg');
-}
-
-.image.wd-reports {
-    background-image: url('http://marketing.wdcdn.net/wp-content/uploads/2012/10/report_billboard2.png');
-}
-
-.image.wd-upload {
-    background-image: url('https://cache.wdcdn.net/asset/assetId/4013772/size/max/ts/1408839038/type/library/client/WD-XJ0FJ/4013772_max.jpg?token=c346f6711106926a3caa70746cb0d323&category=pres&action=thumb');
+.image.pong {
+    background-position: center 43%;
 }
