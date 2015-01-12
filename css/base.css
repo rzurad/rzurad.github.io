@@ -1,5 +1,5 @@
 html, body {
-    min-width: 360px;
+    min-width: 320px;
     height: 100%;
     width: 100%;
 }
@@ -124,7 +124,6 @@ p {
     display: inline-block;
     padding: 0 5px;
     font-size: 12px;
-    cursor: pointer;
 }
 
 .tag-date {
@@ -140,7 +139,7 @@ p {
 
 .footer {
     margin-top: 150px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .image.black-mesa {

@@ -44,7 +44,7 @@
     }
 
     function resize() {
-        var newColumns = Math.floor($('.container').width() / 300);
+        var newColumns = Math.floor($('.container').width() / 290);
         
         if (columns !== newColumns && newColumns > 0) {
             columns = newColumns;

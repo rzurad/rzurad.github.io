@@ -147,7 +147,7 @@ window.rz = {
         title: 'de_blaze',
         imageSrc: './assets/img/de_blaze.jpg',
         href: './maps/de_blaze.zip',
-        description: 'Created a bomb defusal map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> set in an Alaskan Telecommunications Facility. Map showcases what happens when you care more about visuals/logistics than actual gameplay.',
+        description: 'Created a bomb defusal map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> set in an Alaskan Telecommunications Facility. Map showcases what happens when you care more about the visuals than actual gameplay logistics.',
         tags: ['Counter-Strike'],
         date: '2002',
         className: 'blaze'
