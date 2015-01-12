@@ -36,7 +36,7 @@ window.rz = {
         imageSrc: './assets/img/rss.jpg',
         href: 'https://github.com/wiredrive/wiredrive_rss',
         description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
-        tags: ['PHP', 'jQuery', 'Flash', 'RSS', 'JSONP'],
+        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'RSS', 'JSONP'],
         date: '2013',
         className: 'rss'
     }, {
