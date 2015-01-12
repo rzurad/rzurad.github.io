@@ -68,6 +68,21 @@ a:hover {
     margin-bottom: 250px;
 }
 
+.header > div.scroll-for-things {
+    position: relative;
+    top: 60%;
+}
+
+.scroll-for-things {
+    font-size: 10px;
+}
+
+@media screen and (max-height: 368px) {
+    .scroll-for-things {
+        display: none;
+    }
+}
+
 .doing ul {
     padding-left: 0px;
     list-style-type: none;
@@ -134,6 +149,11 @@ a:hover {
     transition-property: background-color;
     transition-duration: 0.2s;
     cursor: pointer;
+}
+
+.tag a,
+.tag a:hover {
+    color: #ccc;
 }
 
 .tag-date {
