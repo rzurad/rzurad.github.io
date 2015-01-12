@@ -1,0 +1,52 @@
+body {
+    background-color: #000;
+    color: #ccc;
+}
+
+h1, h2 {
+    color: rgb(244, 96, 197);
+}
+
+a, a:focus {
+    color: #c31671;
+}
+
+a:focus {
+    outline: 5px auto #c31671;
+}
+
+a:hover {
+    color: rgb(239, 12, 145);
+    text-decoration: none;
+}
+
+.background {
+    background-image: url('/assets/img/background.png');
+    background-position: center center;
+    opacity: 0.3;
+}
+
+.work {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.work h4 {
+    color: rgb(244, 96, 197);
+    font-weight: 700;
+}
+
+.tag {
+    background-color: rgb(68, 17, 47);
+    border-radius: 2px;
+}
+
+.tag a,
+.tag a:hover {
+    color: #ccc;
+}
+
+.tag:hover {
+    background-color: rgb(239, 12, 145);
+}
