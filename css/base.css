@@ -58,7 +58,7 @@ a.active {
 a.active,
 .footer a:hover,
 li a:hover,
-p a: hover {
+p a:hover {
     background-color: #000;
     border-radius: 2px;
 }
