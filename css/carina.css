@@ -1,0 +1,39 @@
+h1, h2,
+.work h4 {
+    color: #efe09a;
+}
+
+a, a:focus {
+    color: #efe09a;
+}
+
+a:focus {
+    outline: 5px auto #efe09a;
+}
+
+a.active,
+a:hover {
+    color: #ffae00;
+}
+
+li a,
+p a {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+a.active,
+.footer a:hover,
+li a:hover,
+p a:hover {
+    border-radius: 2px;
+    background-color: rgba(165, 68, 36, 0.5);
+}
+
+.background {
+    background-image: url('/assets/img/background-carina.png');
+}
+
+.tag {
+    background-color: #502b07;
+}
