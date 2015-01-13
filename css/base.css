@@ -220,11 +220,6 @@ p a: hover {
     margin-top: 20px;
 }
 
-#theme-list a {
-    transition-property: color;
-    transition-duration: 0.2s;
-}
-
 .image.black-mesa {
     background-size: contain;
     background-repeat: no-repeat;
