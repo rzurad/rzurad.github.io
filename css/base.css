@@ -11,19 +11,31 @@ body {
     color: #eee;
 }
 
+h1, h2, h3, h4, h5 {
+    transition-property: color;
+    transition-duration: 1s;
+}
+
 h2 {
     margin-bottom: 25px;
 }
 
 a, a:focus {
+    color: #fff;
     font-weight: 700;
     text-decoration: none;
-    transition-property: color background-color;
+    transition-property: color, background-color;
     transition-duration: 0.2s;
     background-color: rgba(0, 0, 0, 0);
 }
 
+a:focus {
+    outline: 5px auto #fff;
+}
+
+a.active,
 a:hover {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -31,6 +43,12 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #ccc;
+}
+
+li a,
+p a {
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 a.active {
@@ -41,6 +59,7 @@ a.active,
 .footer a:hover,
 li a:hover,
 p a: hover {
+    background-color: #000;
     border-radius: 2px;
 }
 
@@ -155,12 +174,14 @@ p a: hover {
     padding: 0 5px;
     font-size: 12px;
     transition-property: background-color;
-    transition-duration: 0.2s;
+    transition-duration: 1s;
     border-radius: 2px;
 }
 
 .tag a,
 .tag a:hover {
+    transition-property: color;
+    transition-duration: 0.2s;
     color: #ccc;
 }
 
@@ -197,6 +218,11 @@ p a: hover {
 .image-credits {
     font-size: 7px;
     margin-top: 20px;
+}
+
+#theme-list a {
+    transition-property: color;
+    transition-duration: 0.2s;
 }
 
 .image.black-mesa {

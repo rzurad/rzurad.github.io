@@ -16,12 +16,6 @@ a:hover {
     color: rgb(239, 12, 145);
 }
 
-li a,
-p a {
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
 a.active,
 .footer a:hover,
 li a:hover,

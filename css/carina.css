@@ -16,17 +16,10 @@ a:hover {
     color: #ffae00;
 }
 
-li a,
-p a {
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
 a.active,
 .footer a:hover,
 li a:hover,
 p a:hover {
-    border-radius: 2px;
     background-color: rgba(165, 68, 36, 0.5);
 }
 

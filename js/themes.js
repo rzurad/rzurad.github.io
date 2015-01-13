@@ -18,12 +18,30 @@
             theme = _themes[key],
             $oldTheme = $head.find('link[data-theme]');
 
-        $head.append('<link rel="stylesheet" data-theme="' + key  + '" href="./css/' + theme.file + '">');
         $('.image-credits').html(theme.copyright);
+        $head.append('<link rel="stylesheet" data-theme="' + key  + '" href="./css/' + theme.file + '">');
         $oldTheme.remove();
     }
 
-    var $list = $('#theme-list');
+    /*
+    // load a random theme
+    var initialTheme = (function (a) {
+        return a[~~(Math.random() * a.length)];
+    }(Object.keys(_themes)));
+    */
+    var initialTheme = 'Herschel',
+        $list = $('#theme-list');
+
+    loadTheme(initialTheme);
+
+    // draw the theme list
+    Object.keys(_themes).forEach(function (key) {
+        var active = key === initialTheme ? ' class="active"' : '';
+
+        $list.append(
+            '<a href="#" data-theme="' + key + '"' + active + '>' + key + '</a> '
+        );
+    });
 
     // bind theme selection click
     $list.on('click', 'a', function (e) {
@@ -41,24 +59,5 @@
         $target.addClass('active');
 
         loadTheme(key);
-    });
-
-    // load a random theme
-    /*
-    var initialTheme = (function (a) {
-        return a[~~(Math.random() * a.length)];
-    }(Object.keys(_themes)));
-    */
-    var initialTheme = 'Herschel';
-
-    loadTheme(initialTheme);
-
-    // draw the theme list
-    Object.keys(_themes).forEach(function (key) {
-        var active = key === initialTheme ? ' class="active"' : '';
-
-        $list.append(
-            '<a href="#" data-theme="' + key + '"' + active + '>' + key + '</a> '
-        );
     });
 }());
