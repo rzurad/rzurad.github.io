@@ -216,6 +216,7 @@ p a:hover {
 }
 
 .image-credits {
+    height: 30px;
     font-size: 7px;
     margin-top: 2px;
 }
