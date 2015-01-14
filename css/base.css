@@ -69,6 +69,7 @@ p a:hover {
     background-position: center center;
     opacity: 0.3;
     position: absolute;
+    border: 1px solid transparent;
 }
 
 .background-container {
