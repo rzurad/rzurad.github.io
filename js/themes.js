@@ -21,6 +21,12 @@
         };
 
     function loadTheme(key) {
+        if (key === 'Random' || !(key in _themes)) {
+            key = (function (a) {
+                return a[~~(Math.random() * a.length)];
+            }(Object.keys(_themes)));
+        }
+
         var $head = $('head'),
             theme = _themes[key],
             $oldTheme = $head.find('link[data-theme]');
@@ -39,15 +45,20 @@
         $list = $('#theme-list'),
         initialTheme;
 
-    qs = qs && qs.pop();
-    qs = qs in _themes && qs;
+    if (qs) {
+        qs = qs.pop();
 
-    initialTheme = qs || ls || 'Herschel';
+        if (!(qs in _themes) && qs !== 'Random') {
+            qs = null;
+        }
+    }
+
+    initialTheme = qs || ls || 'Random';
 
     loadTheme(initialTheme);
 
     // draw the theme list
-    Object.keys(_themes).forEach(function (key) {
+    Object.keys(_themes).concat(['Random']).forEach(function (key) {
         var active = key === initialTheme ? ' class="active"' : '';
 
         $list.append(
