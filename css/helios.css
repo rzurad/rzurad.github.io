@@ -20,11 +20,6 @@ p a:hover {
     background-color: rgba(74, 190, 190, 0.69);
 }
 
-.background {
-    background-image: url('/assets/img/background-helios.png');
-    opacity: 0.45;
-}
-
 .tag {
     background-color: #006564;
 }

@@ -23,10 +23,6 @@ p a:hover {
     background-color: rgba(50, 11, 34, 1);
 }
 
-.background {
-    background-image: url('/assets/img/background-herschel.png');
-}
-
 .tag {
     background-color: rgb(68, 17, 47);
 }

@@ -1,7 +1,7 @@
 window.rz = {
     WORKS: [{
         title: 'TEXTp',
-        imageSrc: './assets/img/textp.jpg',
+        imageSrc: './assets/img/textp.png',
         href: 'https://rzurad.github.io/TEXTp',
         description: "Built an Ember-CLI app that converts any web-friendly image&mdash;including the background of this very website&mdash;into <a href=\"http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html\" target=\"_new\">YouTube's 2010 April Fool's Joke</a>.",
         tags: ['Ember-CLI', 'Web Workers', 'HTML5 Canvas', 'Bootstrap', 'LESS'],

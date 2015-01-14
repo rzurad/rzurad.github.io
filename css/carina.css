@@ -23,10 +23,6 @@ p a:hover {
     background-color: rgba(165, 68, 36, 0.5);
 }
 
-.background {
-    background-image: url('/assets/img/background-carina.png');
-}
-
 .tag {
     background-color: #502b07;
 }
