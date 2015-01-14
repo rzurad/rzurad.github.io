@@ -39,7 +39,6 @@
             // then send it back and try again. We can't be having the same theme
             // as before... that'd be some bullshit, right there...
             if (key === $oldTheme.attr('data-theme')) {
-                console.log('skip');
                 loadTheme('Random');
 
                 return;
