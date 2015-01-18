@@ -4,8 +4,8 @@
     var columns = 0,
         WORKS = rz.WORKS;
 
-    function drawWorkGrid() {
-        var $gridContainer = $('.work-grid'),
+    function drawWorkGrid(data, selector) {
+        var $gridContainer = $(selector),
             $columns, current, i;
 
         $gridContainer.attr('data-columns', columns);
@@ -17,8 +17,8 @@
 
         $columns = $gridContainer.find('.column');
 
-        for (i = 0; i < WORKS.length; i++) {
-            current = WORKS[i];
+        for (i = 0; i < data.length; i++) {
+            current = data[i];
 
             $($columns[i % columns]).append([
                 '<div class="work">',
@@ -48,7 +48,7 @@
         
         if (columns !== newColumns && newColumns > 0) {
             columns = newColumns;
-            drawWorkGrid()
+            drawWorkGrid(WORKS, '#works-grid');
         }
     }
 

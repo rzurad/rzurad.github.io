@@ -86,7 +86,7 @@
     // determine the theme to display:
     //    Use the theme given by a querystring, if it's valid.
     //    Otherwise, use the theme they last selected (if any),
-    //    Otherwise, use Herschel
+    //    Otherwise, use a Random theme 
     var qs = window.location.search.match(/theme=([a-zA-Z]+)/),
         ls = localStorage.getItem('theme'),
         $list = $('#theme-list'),
