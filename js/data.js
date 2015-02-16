@@ -1,5 +1,13 @@
 window.rz = {
     WORKS: [{
+        title: 'Selective Transcode',
+        imageSrc: './assets/img/selective-transcode.png',
+        href: 'http://www.wiredrive.com/15492/smooth-playback/',
+        description: 'Wrote a Python script that uses <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a> to selectively transcode/remux multimedia files into a format that is compatible with HTML5 Audio and Video playback specifications.<br><br>Written for <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> to help ensure smooth plackback of all client media files. Currently closed-source.',
+        tags: ['Python', 'ffmpeg', 'HTML5 Video', 'HTML5 Audio'],
+        date: '2015',
+        className: 'selective-transcode'
+    }, {
         title: 'TEXTp',
         imageSrc: './assets/img/textp.png',
         href: 'https://rzurad.github.io/TEXTp',
@@ -14,7 +22,7 @@ window.rz = {
         description: 'Wrote a C program for FreeBSD that generates a waveform image of an audio file using ffmpeg\'s C libraries. Subsequently developed an unhealthy addiction to <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a>.',
         tags: ['C', 'ffmpeg', 'libpng'],
         date: '2014',
-        className: 'waveform',
+        className: 'waveform'
     }, {
         title: 'Tree of Life JSON',
         imageSrc: './assets/img/tree-of-life.jpg',
