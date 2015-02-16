@@ -24,30 +24,6 @@ window.rz = {
         date: '2014',
         className: 'waveform'
     }, {
-        title: 'Tree of Life JSON',
-        imageSrc: './assets/img/tree-of-life.jpg',
-        href: 'http://github.com/rzurad/tree-of-life',
-        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently made a snarky comment at XML\'s expense.',
-        tags: ['Node.JS'],
-        date: '2014',
-        className: 'tol'
-    }, {
-        title: 'DS-Extensions',
-        imageSrc: './assets/img/ds-extensions.png',
-        href: 'https://gist.github.com/rzurad/348c436ada5260ad16fe',
-        description: 'Created a proof-of-concept for a shim library that augments <a href="http://emberjs.com/api/data/" target="_new">Ember Data</a> with support for sparse RecordArrays and paginated responses from the persistence layer.',
-        tags: ['Ember Data', 'Ember.JS'],
-        date: '2013',
-        className: 'ds-extensions'
-    }, {
-        title: 'Wiredrive RSS Examples',
-        imageSrc: './assets/img/rss.jpg',
-        href: 'https://github.com/wiredrive/wiredrive_rss',
-        description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
-        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'RSS', 'JSONP'],
-        date: '2013',
-        className: 'rss'
-    }, {
         title: 'Wiredrive Storage Report',
         imageSrc: './assets/img/wd-storage.jpg',
         href: 'http://www.wiredrive.com/10806/storage-usage-report/',
@@ -55,14 +31,6 @@ window.rz = {
         tags: ['YUI3', 'd3js'],
         date: '2013',
         className: 'wd-storage'
-    }, {
-        title: 'Wiredrive Wordpress Player',
-        imageSrc: './assets/img/wiredrive-player.jpg',
-        href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
-        description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations into Wordpress-powered websites.',
-        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
-        date: '2013',
-        className: 'wiredrive-player'
     }, {
         title: "Wiredrive Reports",
         imageSrc: './assets/img/wd-reports.png',
@@ -96,14 +64,6 @@ window.rz = {
         date: '2011',
         className: 'Mahalo'
     }, {
-       title: 'Pong',
-        imageSrc: './assets/img/pong.jpg',
-        href: '/pong/index.html',
-        description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees.',
-        tags: ['Flash'],
-        date: '2010',
-        className: 'pong'
-    }, {
         title: 'Midwest Copier Exchange',
         imageSrc: './assets/img/mwc.jpg',
         href: 'http://www.midwestcopier.com',
@@ -119,6 +79,55 @@ window.rz = {
         tags: ['Flash'],
         date: '2004',
         className: 'black-mesa'
+    }],
+    OTHER: [{
+        title: 'Tree of Life JSON',
+        imageSrc: './assets/img/tree-of-life.jpg',
+        href: 'http://github.com/rzurad/tree-of-life',
+        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently made a snarky comment at XML\'s expense.',
+        tags: ['Node.JS'],
+        date: '2014',
+        className: 'tol'
+    }, {
+        title: 'DS-Extensions',
+        imageSrc: './assets/img/ds-extensions.png',
+        href: 'https://gist.github.com/rzurad/348c436ada5260ad16fe',
+        description: 'Created a proof-of-concept for a shim library that augments <a href="http://emberjs.com/api/data/" target="_new">Ember Data</a> with support for sparse RecordArrays and paginated responses from the persistence layer.',
+        tags: ['Ember Data', 'Ember.JS'],
+        date: '2013',
+        className: 'ds-extensions'
+    }, {
+        title: 'Wiredrive RSS Examples',
+        imageSrc: './assets/img/rss.jpg',
+        href: 'https://github.com/wiredrive/wiredrive_rss',
+        description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
+        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'RSS', 'JSONP'],
+        date: '2013',
+        className: 'rss'
+    }, {
+        title: 'Wiredrive Wordpress Player',
+        imageSrc: './assets/img/wiredrive-player.jpg',
+        href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
+        description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations into Wordpress-powered websites.',
+        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
+        date: '2013',
+        className: 'wiredrive-player'
+    }, {
+        title: 'g.raphael v0.5',
+        imageSrc: './assets/img/g-raphael.png',
+        href: 'https://github.com/DmitryBaranovskiy/g.raphael',
+        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to verion 0.5.<br><br>Abandoned project due to lack of time and shortly after began having an affair with <a href="http://d3js.org/" target="_new">d3js</a>.',
+        tags: ['Raphael.JS'],
+        date: '2011',
+        className: 'g-raphael'
+    }, {
+       title: 'Pong',
+        imageSrc: './assets/img/pong.jpg',
+        href: '/pong/index.html',
+        description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees.',
+        tags: ['Flash'],
+        date: '2010',
+        className: 'pong'
     }, {
         title: 'Influence',
         imageSrc: './assets/img/influence.jpg',

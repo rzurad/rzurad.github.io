@@ -2,7 +2,8 @@
     "use strict";
 
     var columns = 0,
-        WORKS = rz.WORKS;
+        WORKS = rz.WORKS,
+        OTHER = rz.OTHER;
 
     function drawWorkGrid(data, selector) {
         var $gridContainer = $(selector),
@@ -49,6 +50,7 @@
         if (columns !== newColumns && newColumns > 0) {
             columns = newColumns;
             drawWorkGrid(WORKS, '#works-grid');
+            drawWorkGrid(OTHER, '#other-grid');
         }
     }
 
