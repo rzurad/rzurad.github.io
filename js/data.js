@@ -79,6 +79,22 @@ window.rz = {
         tags: ['Flash'],
         date: '2004',
         className: 'black-mesa'
+    }, {
+        title: 'Influence',
+        imageSrc: './assets/img/influence.jpg',
+        href: './assets/maps/influence.zip',
+        description: 'Made a small <a href="http://store.steampowered.com/app/70/" target="_new">Half-Life Deathmatch</a> map set inside ancient ruins. Map showcases the accidental discovery that rocket launchers in small hallways are fun.',
+        tags: ['Half-Life Deathmatch'],
+        date: '2003',
+        className: 'influence'
+    }, {
+        title: 'de_blaze',
+        imageSrc: './assets/img/de_blaze.jpg',
+        href: './assets/maps/de_blaze.zip',
+        description: 'Created a bomb defusal map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> set in an Alaskan Telecommunications Facility. Map showcases what happens when you care more about the visuals than actual gameplay logistics.',
+        tags: ['Counter-Strike'],
+        date: '2002',
+        className: 'blaze'
     }],
     OTHER: [{
         title: 'Tree of Life JSON',
@@ -129,14 +145,6 @@ window.rz = {
         date: '2010',
         className: 'pong'
     }, {
-        title: 'Influence',
-        imageSrc: './assets/img/influence.jpg',
-        href: './assets/maps/influence.zip',
-        description: 'Made a small <a href="http://store.steampowered.com/app/70/" target="_new">Half-Life Deathmatch</a> map set inside ancient ruins. Map showcases the accidental discovery that rocket launchers in small hallways are fun.',
-        tags: ['Half-Life Deathmatch'],
-        date: '2003',
-        className: 'influence'
-    }, {
         title: 'ka_moofed',
         imageSrc: './assets/img/ka_moofed.jpg',
         href: './assets/maps/ka_moofed.zip',
@@ -160,14 +168,6 @@ window.rz = {
         tags: ['Counter-Strike'],
         date: '2002',
         className: 'paraplace'
-    }, {
-        title: 'de_blaze',
-        imageSrc: './assets/img/de_blaze.jpg',
-        href: './assets/maps/de_blaze.zip',
-        description: 'Created a bomb defusal map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> set in an Alaskan Telecommunications Facility. Map showcases what happens when you care more about the visuals than actual gameplay logistics.',
-        tags: ['Counter-Strike'],
-        date: '2002',
-        className: 'blaze'
     }, {
         title: 'ka_iceberg',
         imageSrc: './assets/img/ka_iceberg.jpg',
