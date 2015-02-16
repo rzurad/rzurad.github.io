@@ -129,15 +129,23 @@ window.rz = {
         date: '2013',
         className: 'wiredrive-player'
     }, {
+        title: 'fusion.js',
+        imageSrc: './assets/img/fusion.png',
+        href: 'https://github.com/rzurad/fusion',
+        description: 'A JavaScript shim toolbelt to use ES5 conventions without having to worry about legacy browsers. Makes heavy use of the <a href="http://github.com/kriskowal/es5-shim" target="_new">es5-shim</a> library.<br><br>Project is unfinished as was abandoned shortly after beginning because I found myself in a position where I no longer needed to care about browsers that did not fully implement ES5 standards (it\'s nice here).',
+        tags: ['JavaScript'],
+        date: '2012',
+        className: 'fusion'
+    }, {
         title: 'g.raphael v0.5',
         imageSrc: './assets/img/g-raphael.png',
         href: 'https://github.com/DmitryBaranovskiy/g.raphael',
-        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to verion 0.5.<br><br>Abandoned project due to lack of time and shortly after began having an affair with <a href="http://d3js.org/" target="_new">d3js</a>.',
+        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to verion 0.5.<br><br>Shortly after shipping 0.5.1, I began having an affair with <a href="http://d3js.org" target="_new">d3js</a> and subsequently abandoned g.raphael due to lack of time.',
         tags: ['Raphael.JS'],
         date: '2011',
         className: 'g-raphael'
     }, {
-       title: 'Pong',
+        title: 'Pong',
         imageSrc: './assets/img/pong.jpg',
         href: '/pong/index.html',
         description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees.',
