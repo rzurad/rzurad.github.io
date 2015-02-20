@@ -19,7 +19,7 @@ window.rz = {
         title: 'Waveform',
         imageSrc: './assets/img/waveform.png',
         href: 'https://github.com/rzurad/waveform',
-        description: 'Wrote a C program for FreeBSD that generates a waveform image of an audio file using ffmpeg\'s C libraries. Subsequently developed an unhealthy addiction to <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a>.',
+        description: 'Wrote a C program for FreeBSD that generates a waveform image of an audio file using ffmpeg\'s C libraries. Subsequently developed an unhealthy addiction to <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a>.<br><br>Currently being used by <a href="http://www.wiredrive.com/15498/waveform-audio-thumbnails-awesome/" target="_new">Wiredrive</a> to give users a visual representation of uploaded audio files.',
         tags: ['C', 'ffmpeg', 'libpng'],
         date: '2014',
         className: 'waveform'
