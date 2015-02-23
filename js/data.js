@@ -67,7 +67,7 @@ window.rz = {
         title: 'Midwest Copier Exchange',
         imageSrc: './assets/img/mwc.jpg',
         href: 'http://www.midwestcopier.com',
-        description: 'Designed and built the web portal for copier wholesaler Midwest Copier Exchange, which consisted of a user portal, a message board, and an inventory tracking system.',
+        description: 'Designed and built the web portal for copier wholesaler Midwest Copier Exchange, which consisted of a user portal, a message board, and an inventory tracking system.<br><br>Site has been reskinned since I last worked on it.',
         tags: ['.NET 2.0', 'MS SQL Server 2005'],
         date: '2009',
         className: 'midwest-copier'
