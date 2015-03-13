@@ -4,7 +4,7 @@ window.rz = {
         imageSrc: './assets/img/selective-transcode.png',
         href: 'http://www.wiredrive.com/15492/smooth-playback/',
         description: 'Wrote a Python script that uses <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a> to selectively transcode/remux multimedia files into a format that is compatible with HTML5 Audio and Video playback specifications.<br><br>Written for <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> to help ensure smooth plackback of all client media files. Currently closed-source.',
-        tags: ['Python', 'ffmpeg', 'HTML5 Video', 'HTML5 Audio'],
+        tags: ['Python', 'ffmpeg', 'H.264/MPEG-4 AVC'],
         date: '2015',
         className: 'selective-transcode'
     }, {
