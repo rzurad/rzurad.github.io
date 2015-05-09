@@ -1,9 +1,17 @@
 window.rz = {
     WORKS: [{
+        title: 'KXBM.net',
+        imageSrc: './assets/img/kxbm.png',
+        href: 'http://rzurad.github.io/bmrf.us',
+        description: 'Built a series of fake websites for <a href="http://www.blackmesasource.com/" target="_new">Black Mesa</a>. For what purpose? I trust it will all makes sense to you in the course of... well... I\'m really not at liberty to say.<br><br>Shortly after release, subsequently learned what it feels like to watch the internet <a href="https://www.youtube.com/watch?v=lTxvGQeZbmo" target="_new">tear</a> <a href="http://www.reddit.com/r/Games/comments/2wgzfi/the_black_mesa_website_has_changed_again" target="_new">apart</a> <a href="http://forums.blackmesasource.com/index.php/Thread/13735-ARG-The-Pizza-Code-Mystery/?pageNo=126&s=945b1016c4c00e5263723f4a54f6ad6d41d6d464" target="_new">your</a> <a href="http://www.pcgamer.com/mysterious-countdown-clock-appears-for-black-mesa/" target="_new">work</a> <a href="http://www.ign.com/articles/2015/05/01/half-life-remake-website-is-counting-down-to-something" target="_new">looking</a> <a href="http://www.escapistmagazine.com/news/view/140665-Black-Mesa-Mod-Has-Mysterious-Countdown" target="_new">for</a> clues.',
+        tags: ['jQuery', 'WebGL', 'HTML5 Audio', 'Bootstrap', 'ffmpeg'],
+        date: '2015',
+        className: 'kxbm.net'
+    }, {
         title: 'Selective Transcode',
         imageSrc: './assets/img/selective-transcode.png',
         href: 'http://www.wiredrive.com/15492/smooth-playback/',
-        description: 'Wrote a Python script that uses <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a> to selectively transcode/remux multimedia files into a format that is compatible with HTML5 Audio and Video playback specifications.<br><br>Written for <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> to help ensure smooth plackback of all client media files. Currently closed-source.',
+        description: 'Wrote a Python script that uses <a href="https://www.ffmpeg.org/" target="_new">ffmpeg</a> to selectively transcode/remux multimedia files into a format that is compatible with HTML5 Audio and Video playback specifications.<br><br>Written for <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> to help ensure smooth plackback of all client media files.',
         tags: ['Python', 'ffmpeg', 'H.264/MPEG-4 AVC'],
         date: '2015',
         className: 'selective-transcode'
@@ -23,6 +31,14 @@ window.rz = {
         tags: ['C', 'ffmpeg', 'libpng'],
         date: '2014',
         className: 'waveform'
+    }, {
+        title: 'DS-Extensions',
+        imageSrc: './assets/img/ds-extensions.png',
+        href: 'https://gist.github.com/rzurad/348c436ada5260ad16fe',
+        description: 'Created a proof-of-concept for a shim library that augments <a href="http://emberjs.com/api/data/" target="_new">Ember Data</a> with support for sparse RecordArrays and paginated responses from the persistence layer.',
+        tags: ['Ember Data', 'Ember.JS'],
+        date: '2013',
+        className: 'ds-extensions'
     }, {
         title: 'Wiredrive Storage Report',
         imageSrc: './assets/img/wd-storage.jpg',
@@ -95,6 +111,14 @@ window.rz = {
         tags: ['Counter-Strike'],
         date: '2002',
         className: 'blaze'
+    }, {
+        title: 'cs_pumpo',
+        imageSrc: './assets/img/cs_pumpo.jpg',
+        href: './assets/maps/cs_pumpo32.zip',
+        description: 'Made a pump-shotgun only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> inspired by cs_deagle5. Map showcases the only map I made that was actually fun to play.',
+        tags: ['Counter-Strike'],
+        date: '2002',
+        className: 'pumpo',
     }],
     OTHER: [{
         title: 'Tree of Life JSON',
@@ -104,14 +128,6 @@ window.rz = {
         tags: ['Node.JS'],
         date: '2014',
         className: 'tol'
-    }, {
-        title: 'DS-Extensions',
-        imageSrc: './assets/img/ds-extensions.png',
-        href: 'https://gist.github.com/rzurad/348c436ada5260ad16fe',
-        description: 'Created a proof-of-concept for a shim library that augments <a href="http://emberjs.com/api/data/" target="_new">Ember Data</a> with support for sparse RecordArrays and paginated responses from the persistence layer.',
-        tags: ['Ember Data', 'Ember.JS'],
-        date: '2013',
-        className: 'ds-extensions'
     }, {
         title: 'Wiredrive RSS Examples',
         imageSrc: './assets/img/rss.jpg',
@@ -160,14 +176,6 @@ window.rz = {
         tags: ['Counter-Strike'],
         date: '2002',
         className: 'moofed'
-    }, {
-        title: 'cs_pumpo',
-        imageSrc: './assets/img/cs_pumpo.jpg',
-        href: './assets/maps/cs_pumpo32.zip',
-        description: 'Made a pump-shotgun only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> inspired by cs_deagle5. Map showcases the only map I made that was actually fun to play.',
-        tags: ['Counter-Strike'],
-        date: '2002',
-        className: 'pumpo',
     }, {
         title: 'cs_paraplace',
         imageSrc: './assets/img/cs_paraplace.jpg',
