@@ -156,7 +156,7 @@ window.rz = {
         title: 'g.raphael v0.5',
         imageSrc: './assets/img/g-raphael.png',
         href: 'https://github.com/DmitryBaranovskiy/g.raphael',
-        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to verion 0.5.<br><br>Shortly after shipping 0.5.1, I began having an affair with <a href="http://d3js.org" target="_new">d3js</a> and subsequently abandoned g.raphael due to lack of time.',
+        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to version 0.5.<br><br>Shortly after shipping 0.5.1, I began having an affair with <a href="http://d3js.org" target="_new">d3js</a> and subsequently abandoned g.raphael due to lack of time.',
         tags: ['Raphael.JS'],
         date: '2011',
         className: 'g-raphael'
