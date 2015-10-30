@@ -1,5 +1,13 @@
 window.rz = {
     WORKS: [{
+        title: 'QC Generator',
+        imageSrc: './assets/img/qc-generator.png',
+        href: 'http://rzurad.github.io/qc-generator',
+        description: 'Built a prototype web application to help the process of compiling 3d models into <a href="http://www.valvesoftware.com/" target="_blank">Valve Software\'s</a> <a href="https://developer.valvesoftware.com/wiki/SDK_Docs" target="_blank">Source Engine</a> by providing an interface for creating QC files.<br><br>Being a proof of concept, it lacks many of the commands necessary to create advanced QC files.',
+        tags: ['Ember CLI', 'Bootstrap', 'LESS'],
+        date: '2015',
+        className: 'qc-generator'
+    }, {
         title: 'KXBM.net',
         imageSrc: './assets/img/kxbm.png',
         href: 'http://rzurad.github.io/bmrf.us',
