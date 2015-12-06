@@ -129,6 +129,14 @@ window.rz = {
         className: 'pumpo',
     }],
     OTHER: [{
+        title: 'Minesweeper',
+        imageSrc: './assets/img/minesweeper.png',
+        href: 'http://bl.ocks.org/rzurad/raw/1dd154d072a1f1fba32a/',
+        description: '"I\'m bored. I\'ll play Minesweeper to kill time...Hmm, Windows doesn\'t seem to come with it installed anymore...It\'s a simple enough game, I wonder how long it would take to make a Minesweeper clone..."<br><br>It turns out that a basic working clone can be made in about an hour and a half. Though it\'ll take the rest of the day to polish it up.',
+        tags: ['jQuery', 'Bootstrap'],
+        date: '2015',
+        className: 'minesweeper'
+    }, {
         title: 'Tree of Life JSON',
         imageSrc: './assets/img/tree-of-life.jpg',
         href: 'http://github.com/rzurad/tree-of-life',
