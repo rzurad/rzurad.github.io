@@ -24,11 +24,11 @@
             $($columns[i % columns]).append([
                 '<div class="work">',
                     '<h4>',
-                        current.href ? '<a href="' + current.href + '" target="_new">' : '',
+                        current.href ? '<a href="' + current.href + '" target="_blank">' : '',
                         current.title,
                         current.href ? '</a>' : '',
                     '</h4>',
-                    current.href ? '<a href="' + current.href + '" target="_new">' : '',
+                    current.href ? '<a href="' + current.href + '" target="_blank">' : '',
                         '<div class="image ', current.className, '"',
                              'style="background-image: url(\'', current.imageSrc, '\');">',
                         '</div>',
