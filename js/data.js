@@ -1,5 +1,13 @@
 window.rz = {
     WORKS: [{
+        title: 'Minesweeper',
+        imageSrc: './assets/img/minesweeper.png',
+        href: 'http://bl.ocks.org/rzurad/raw/1dd154d072a1f1fba32a/',
+        description: '"I\'m bored. I\'ll play <a href="https://en.wikipedia.org/wiki/Microsoft_Minesweeper" target="_new">Minesweeper</a> to kill time...Hmm, Windows doesn\'t seem to come with it installed anymore...It\'s a simple enough game, I wonder how long it would take to make a Minesweeper clone..."<br><br>It turns out that a basic working clone can be made in about an hour and a half. Though it\'ll take the rest of the day to polish it up.',
+        tags: ['jQuery', 'Bootstrap'],
+        date: '2015',
+        className: 'minesweeper'
+    }, {
         title: 'QC Generator',
         imageSrc: './assets/img/qc-generator.png',
         href: 'http://rzurad.github.io/qc-generator',
@@ -32,6 +40,14 @@ window.rz = {
         date: '2014',
         className: 'textp'
     }, {
+        title: 'Tree of Life JSON',
+        imageSrc: './assets/img/tree-of-life.jpg',
+        href: 'http://github.com/rzurad/tree-of-life',
+        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently made a snarky comment at XML\'s expense.',
+        tags: ['Node.JS'],
+        date: '2014',
+        className: 'tol'
+    }, {
         title: 'Waveform',
         imageSrc: './assets/img/waveform.png',
         href: 'https://github.com/rzurad/waveform',
@@ -48,6 +64,22 @@ window.rz = {
         date: '2013',
         className: 'ds-extensions'
     }, {
+        title: 'Wiredrive RSS Examples',
+        imageSrc: './assets/img/rss.jpg',
+        href: 'https://github.com/wiredrive/wiredrive_rss',
+        description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
+        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'RSS', 'JSONP'],
+        date: '2013',
+        className: 'rss'
+    }, {
+        title: 'Wiredrive Wordpress Player',
+        imageSrc: './assets/img/wiredrive-player.jpg',
+        href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
+        description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations into Wordpress-powered websites.',
+        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
+        date: '2013',
+        className: 'wiredrive-player'
+    }, {
         title: 'Wiredrive Storage Report',
         imageSrc: './assets/img/wd-storage.jpg',
         href: 'http://www.wiredrive.com/10806/storage-usage-report/',
@@ -56,6 +88,14 @@ window.rz = {
         date: '2013',
         className: 'wd-storage'
     }, {
+        title: 'fusion.js',
+        imageSrc: './assets/img/fusion.png',
+        href: 'https://github.com/rzurad/fusion',
+        description: 'A JavaScript shim toolbelt to use ES5 conventions without having to worry about legacy browsers. Makes heavy use of the <a href="http://github.com/kriskowal/es5-shim" target="_new">es5-shim</a> library.<br><br>Project is unfinished as was abandoned shortly after beginning because I found myself in a position where I no longer needed to care about browsers that did not fully implement ES5 standards (it\'s nice here).',
+        tags: ['JavaScript'],
+        date: '2012',
+        className: 'fusion'
+    }, {
         title: "Wiredrive Reports",
         imageSrc: './assets/img/wd-reports.png',
         href: 'http://www.wiredrive.com/9152/software-release-new-wiredrive-reports/',
@@ -63,6 +103,14 @@ window.rz = {
         tags: ['YUI3', 'Raphael.JS'],
         date: '2012',
         className: 'wd-reports'
+    }, {
+        title: 'g.raphael v0.5',
+        imageSrc: './assets/img/g-raphael.png',
+        href: 'https://github.com/DmitryBaranovskiy/g.raphael',
+        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to version 0.5.<br><br>Shortly after shipping 0.5.1, I began having an affair with <a href="http://d3js.org" target="_new">d3js</a> and subsequently abandoned g.raphael due to lack of time.',
+        tags: ['Raphael.JS'],
+        date: '2011',
+        className: 'g-raphael'
     }, {
         title: 'Wiredrive Presentations',
         imageSrc: './assets/img/wd-presentations.jpg',
@@ -88,6 +136,14 @@ window.rz = {
         date: '2011',
         className: 'Mahalo'
     }, {
+        title: 'Pong',
+        imageSrc: './assets/img/pong.jpg',
+        href: '/pong/index.html',
+        description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees.',
+        tags: ['Flash'],
+        date: '2010',
+        className: 'pong'
+    }, {
         title: 'Midwest Copier Exchange',
         imageSrc: './assets/img/mwc.jpg',
         href: 'http://www.midwestcopier.com',
@@ -112,6 +168,14 @@ window.rz = {
         date: '2003',
         className: 'influence'
     }, {
+        title: 'ka_moofed',
+        imageSrc: './assets/img/ka_moofed.jpg',
+        href: './assets/maps/ka_moofed.zip',
+        description: 'Built a quick knife-only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> for a LAN party. Map showcases a complete inability to think about gameplay mechanics and to instead care about overblown easter eggs.',
+        tags: ['Counter-Strike'],
+        date: '2002',
+        className: 'moofed'
+    }, {
         title: 'de_blaze',
         imageSrc: './assets/img/de_blaze.jpg',
         href: './assets/maps/de_blaze.zip',
@@ -127,71 +191,6 @@ window.rz = {
         tags: ['Counter-Strike'],
         date: '2002',
         className: 'pumpo',
-    }],
-    OTHER: [{
-        title: 'Minesweeper',
-        imageSrc: './assets/img/minesweeper.png',
-        href: 'http://bl.ocks.org/rzurad/raw/1dd154d072a1f1fba32a/',
-        description: '"I\'m bored. I\'ll play Minesweeper to kill time...Hmm, Windows doesn\'t seem to come with it installed anymore...It\'s a simple enough game, I wonder how long it would take to make a Minesweeper clone..."<br><br>It turns out that a basic working clone can be made in about an hour and a half. Though it\'ll take the rest of the day to polish it up.',
-        tags: ['jQuery', 'Bootstrap'],
-        date: '2015',
-        className: 'minesweeper'
-    }, {
-        title: 'Tree of Life JSON',
-        imageSrc: './assets/img/tree-of-life.jpg',
-        href: 'http://github.com/rzurad/tree-of-life',
-        description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently made a snarky comment at XML\'s expense.',
-        tags: ['Node.JS'],
-        date: '2014',
-        className: 'tol'
-    }, {
-        title: 'Wiredrive RSS Examples',
-        imageSrc: './assets/img/rss.jpg',
-        href: 'https://github.com/wiredrive/wiredrive_rss',
-        description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
-        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'RSS', 'JSONP'],
-        date: '2013',
-        className: 'rss'
-    }, {
-        title: 'Wiredrive Wordpress Player',
-        imageSrc: './assets/img/wiredrive-player.jpg',
-        href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
-        description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations into Wordpress-powered websites.',
-        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
-        date: '2013',
-        className: 'wiredrive-player'
-    }, {
-        title: 'fusion.js',
-        imageSrc: './assets/img/fusion.png',
-        href: 'https://github.com/rzurad/fusion',
-        description: 'A JavaScript shim toolbelt to use ES5 conventions without having to worry about legacy browsers. Makes heavy use of the <a href="http://github.com/kriskowal/es5-shim" target="_new">es5-shim</a> library.<br><br>Project is unfinished as was abandoned shortly after beginning because I found myself in a position where I no longer needed to care about browsers that did not fully implement ES5 standards (it\'s nice here).',
-        tags: ['JavaScript'],
-        date: '2012',
-        className: 'fusion'
-    }, {
-        title: 'g.raphael v0.5',
-        imageSrc: './assets/img/g-raphael.png',
-        href: 'https://github.com/DmitryBaranovskiy/g.raphael',
-        description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to version 0.5.<br><br>Shortly after shipping 0.5.1, I began having an affair with <a href="http://d3js.org" target="_new">d3js</a> and subsequently abandoned g.raphael due to lack of time.',
-        tags: ['Raphael.JS'],
-        date: '2011',
-        className: 'g-raphael'
-    }, {
-        title: 'Pong',
-        imageSrc: './assets/img/pong.jpg',
-        href: '/pong/index.html',
-        description: 'Wrote a Pong clone in Flash that does not believe in angles other than 90 degrees.',
-        tags: ['Flash'],
-        date: '2010',
-        className: 'pong'
-    }, {
-        title: 'ka_moofed',
-        imageSrc: './assets/img/ka_moofed.jpg',
-        href: './assets/maps/ka_moofed.zip',
-        description: 'Built a quick knife-only map for <a href="http://store.steampowered.com/app/10/" target="_new">Counter-Strike</a> for a LAN party. Map showcases a complete inability to think about gameplay mechanics and to instead care about overblown easter eggs.',
-        tags: ['Counter-Strike'],
-        date: '2002',
-        className: 'moofed'
     }, {
         title: 'cs_paraplace',
         imageSrc: './assets/img/cs_paraplace.jpg',

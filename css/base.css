@@ -201,13 +201,8 @@ p a:hover {
     font-size: 12px;
 }
 
-.container > .scroll-for-things {
-    position: relative;
-    top: 75px;
-}
-
 .footer {
-    margin-top: 150px;
+    margin-top: 75px;
     margin-bottom: 50px;
     max-width: 345px;
     position: relative;
@@ -249,4 +244,91 @@ p a:hover {
     .footer {
         margin-top: 50px;
     }
+}
+
+/* styles below adapted from SpinKit: http://tobiasahlin.com/spinkit/ */
+.sk-cube-grid {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 15px;
+}
+
+.up {
+    margin-top: 100px;
+}
+
+.up .sk-cube-grid {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #fff;
+    float: left;
+}
+
+.sk-cube-grid .sk-cube1,
+.sk-cube-grid .sk-cube4,
+.sk-cube-grid .sk-cube7,
+.sk-cube-grid .sk-cube8,
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+
+.sk-cube-grid .sk-cube2,
+.sk-cube-grid .sk-cube3,
+.sk-cube-grid .sk-cube5,
+.sk-cube-grid .sk-cube6 {
+    visibility: hidden;
+}
+
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1); 
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    } 
 }

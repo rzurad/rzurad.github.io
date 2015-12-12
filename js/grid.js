@@ -50,7 +50,6 @@
         if (columns !== newColumns && newColumns > 0) {
             columns = newColumns;
             drawWorkGrid(WORKS, '#works-grid');
-            drawWorkGrid(OTHER, '#other-grid');
         }
     }
 
