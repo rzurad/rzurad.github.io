@@ -1,10 +1,17 @@
 window.rz = {
     WORKS: [{
+        title: 'Strengthenator',
+        imageSrc: './assets/img/strengthenator.png',
+        description: 'Made an Ember-CLI app that displays a leaderboard of client personal records for the <a target="_new" href="http://startingstrength.com/">Starting Strength</a> gym <a target="_new" href="http://www.hornstrength.com/">Horn Strength and Conditioning</a>.<br><br>The app polls a Google Spreadsheets data source and displays the ranks of various clients for various excercises.',
+        tags: ['JavaScript', 'Ember-CLI', 'Bootstrap', 'LESS'],
+        date: '2016',
+        className: 'strengthenator'
+    }, {
         title: 'Minesweeper',
         imageSrc: './assets/img/minesweeper.png',
         href: 'http://bl.ocks.org/rzurad/raw/1dd154d072a1f1fba32a/',
         description: '"I\'m bored. I\'ll play <a href="https://en.wikipedia.org/wiki/Microsoft_Minesweeper" target="_new">Minesweeper</a> to kill time...Hmm, Windows doesn\'t seem to come with it installed anymore...It\'s a simple enough game, I wonder how long it would take to make a Minesweeper clone..."<br><br>It turns out that a basic working clone can be made in about an hour and a half. Though it\'ll take the rest of the day to polish it up.',
-        tags: ['jQuery', 'Bootstrap'],
+        tags: ['JavaScript', 'jQuery', 'Bootstrap'],
         date: '2015',
         className: 'minesweeper'
     }, {
@@ -12,7 +19,7 @@ window.rz = {
         imageSrc: './assets/img/qc-generator.png',
         href: 'http://rzurad.github.io/qc-generator',
         description: 'Built a prototype web application to help the process of compiling 3d models into <a href="http://www.valvesoftware.com/" target="_blank">Valve Software\'s</a> <a href="https://developer.valvesoftware.com/wiki/SDK_Docs" target="_blank">Source Engine</a> by providing an interface for creating QC files.<br><br>Being a proof of concept, it lacks many of the commands necessary to create advanced QC files.',
-        tags: ['Ember CLI', 'Bootstrap', 'LESS'],
+        tags: ['JavaScript', 'Ember CLI', 'Bootstrap', 'LESS'],
         date: '2015',
         className: 'qc-generator'
     }, {
@@ -20,7 +27,7 @@ window.rz = {
         imageSrc: './assets/img/kxbm.png',
         href: 'http://rzurad.github.io/bmrf.us',
         description: 'Built a series of fake websites for <a href="http://www.blackmesasource.com/" target="_new">Black Mesa</a>. For what purpose? I trust it will all makes sense to you in the course of... well... I\'m really not at liberty to say.<br><br>Shortly after release, subsequently learned what it feels like to watch the internet <a href="https://www.youtube.com/watch?v=lTxvGQeZbmo" target="_new">tear</a> <a href="http://www.reddit.com/r/Games/comments/2wgzfi/the_black_mesa_website_has_changed_again" target="_new">apart</a> <a href="http://forums.blackmesasource.com/index.php/Thread/13735-ARG-The-Pizza-Code-Mystery/?pageNo=126&s=945b1016c4c00e5263723f4a54f6ad6d41d6d464" target="_new">your</a> <a href="http://www.pcgamer.com/mysterious-countdown-clock-appears-for-black-mesa/" target="_new">work</a> <a href="http://www.ign.com/articles/2015/05/01/half-life-remake-website-is-counting-down-to-something" target="_new">looking</a> <a href="http://www.escapistmagazine.com/news/view/140665-Black-Mesa-Mod-Has-Mysterious-Countdown" target="_new">for</a> clues.',
-        tags: ['jQuery', 'WebGL', 'HTML5 Audio', 'Bootstrap', 'ffmpeg'],
+        tags: ['JavaScript', 'jQuery', 'WebGL', 'HTML5 Audio', 'Bootstrap', 'ffmpeg'],
         date: '2015',
         className: 'kxbm.net'
     }, {
@@ -36,7 +43,7 @@ window.rz = {
         imageSrc: './assets/img/textp.png',
         href: 'https://rzurad.github.io/TEXTp',
         description: "Built an Ember-CLI app that converts any web-friendly image&mdash;including the background of this very website&mdash;into <a href=\"http://youtube-global.blogspot.com/2010/03/textp-saves-youtube-bandwidth-money.html\" target=\"_new\">YouTube's 2010 April Fool's Joke</a>.",
-        tags: ['Ember-CLI', 'Web Workers', 'HTML5 Canvas', 'Bootstrap', 'LESS'],
+        tags: ['JavaScript', 'Ember-CLI', 'Web Workers', 'HTML5 Canvas', 'Bootstrap', 'LESS'],
         date: '2014',
         className: 'textp'
     }, {
@@ -44,7 +51,7 @@ window.rz = {
         imageSrc: './assets/img/tree-of-life.jpg',
         href: 'http://github.com/rzurad/tree-of-life',
         description: 'Wrote a short Node.js script to convert XML data from the <a href="http://tolweb.org/tree/" target="_new">Tree of Life Web Project</a> into small, more compact JSON that can be loaded into a browser so I could experiment with data visualizations.<br><br>Learned that 200 MB of XML can be converted into 1 MB of gzipped JSON, and subsequently made a snarky comment at XML\'s expense.',
-        tags: ['Node.JS'],
+        tags: ['JavaScript', 'Node.JS'],
         date: '2014',
         className: 'tol'
     }, {
@@ -60,7 +67,7 @@ window.rz = {
         imageSrc: './assets/img/ds-extensions.png',
         href: 'https://gist.github.com/rzurad/348c436ada5260ad16fe',
         description: 'Created a proof-of-concept for a shim library that augments <a href="http://emberjs.com/api/data/" target="_new">Ember Data</a> with support for sparse RecordArrays and paginated responses from the persistence layer.',
-        tags: ['Ember Data', 'Ember.JS'],
+        tags: ['JavaScript', 'Ember.JS'],
         date: '2013',
         className: 'ds-extensions'
     }, {
@@ -68,7 +75,7 @@ window.rz = {
         imageSrc: './assets/img/rss.jpg',
         href: 'https://github.com/wiredrive/wiredrive_rss',
         description: 'Wrote sample code for proxying and consuming <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentation RSS feeds.',
-        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'RSS', 'JSONP'],
+        tags: ['PHP', 'JavaScript', 'jQuery', 'Flash'],
         date: '2013',
         className: 'rss'
     }, {
@@ -76,7 +83,7 @@ window.rz = {
         imageSrc: './assets/img/wiredrive-player.jpg',
         href: 'http://www.wiredrive.com/11471/updated-wiredrive-player-for-wordpress/',
         description: 'Built a <a href="http://wordpress.org" target="_new">Wordpress</a> plugin that allows clients to embed <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations into Wordpress-powered websites.',
-        tags: ['PHP', 'jQuery', 'Adobe Strobe', 'HTML5 Video'],
+        tags: ['PHP', 'JavaScript', 'jQuery', 'Flash', 'HTML5 Video'],
         date: '2013',
         className: 'wiredrive-player'
     }, {
@@ -84,7 +91,7 @@ window.rz = {
         imageSrc: './assets/img/wd-storage.jpg',
         href: 'http://www.wiredrive.com/10806/storage-usage-report/',
         description: 'Designed and built a usage statistics page to help <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> administrators keep track of system storage and plan usage.',
-        tags: ['YUI3', 'd3js'],
+        tags: ['JavaScript', 'YUI3', 'd3js'],
         date: '2013',
         className: 'wd-storage'
     }, {
@@ -100,7 +107,7 @@ window.rz = {
         imageSrc: './assets/img/wd-reports.png',
         href: 'http://www.wiredrive.com/9152/software-release-new-wiredrive-reports/',
         description: 'Helped rewrite the web client of the <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> reporting application, which allows clients to see layers of analytics information, from system activity to presentation sends/views.',
-        tags: ['YUI3', 'Raphael.JS'],
+        tags: ['JavaScript', 'YUI3', 'Raphael.JS'],
         date: '2012',
         className: 'wd-reports'
     }, {
@@ -108,7 +115,7 @@ window.rz = {
         imageSrc: './assets/img/g-raphael.png',
         href: 'https://github.com/DmitryBaranovskiy/g.raphael',
         description: 'Breifly helped maintain the <a href="http://g.raphaeljs.com/" target="_new">g.raphael</a> charting library for <a href="http://raphaeljs.com/" target="_new">Raphael.JS</a>. Refactored the code to work with Raphael 2 and upgraded it to version 0.5.<br><br>Shortly after shipping 0.5.1, I began having an affair with <a href="http://d3js.org" target="_new">d3js</a> and subsequently abandoned g.raphael due to lack of time.',
-        tags: ['Raphael.JS'],
+        tags: ['JavaScript', 'Raphael.JS'],
         date: '2011',
         className: 'g-raphael'
     }, {
@@ -116,7 +123,7 @@ window.rz = {
         imageSrc: './assets/img/wd-presentations.jpg',
         href: 'http://www.wiredrive.com/7611/new-presentations-are-here/',
         description: 'Helped rebuild the web client of <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> Presentations, transitioning them from YUI2 to YUI3.',
-        tags: ['YUI3'],
+        tags: ['JavaScript', 'YUI3'],
         date: '2012',
         className: 'wd-presentations'
     }, {
@@ -124,7 +131,7 @@ window.rz = {
         imageSrc: './assets/img/wd-upload.jpg',
         href: 'http://www.wiredrive.com/7227/introducing-the-new-html5-uploader/',
         description: 'Rebuilt the <a href="http://www.wiredrive.com" target="_new">Wiredrive</a> uploader to allow users to upload files into their Wiredrive system via an HTML5 drag-and-drop interface, Java, or old-school form posts.',
-        tags: ['YUI3'],
+        tags: ['JavaScript', 'YUI3'],
         date: '2012',
         className: 'wd-upload'
     }, {
@@ -132,7 +139,7 @@ window.rz = {
         imageSrc: './assets/img/mahalo.jpg',
         href: 'http://www.mahalo.com',
         description: 'Helped build the Mahalo 4.0 Django platform for creating and managing how-to content. Built parts of the "Pages" back-end and built the web front-end client/admin app for the Mahalo.com homepage.<br><br>While hired to help build out the Django back-end, quickly succumbed to a horrifying JavaScript addiction that, to this day, have yet to recover from.',
-        tags: ['Django', 'MySQL', 'jQuery', 'Backbone.JS'],
+        tags: ['Python', 'Django', 'MySQL', 'JavaScript', 'jQuery', 'Backbone.JS'],
         date: '2011',
         className: 'Mahalo'
     }, {
@@ -148,7 +155,7 @@ window.rz = {
         imageSrc: './assets/img/mwc.jpg',
         href: 'http://www.midwestcopier.com',
         description: 'Designed and built the web portal for copier wholesaler Midwest Copier Exchange, which consisted of a user portal, a message board, and an inventory tracking system.<br><br>Site has been reskinned since I last worked on it.',
-        tags: ['.NET 2.0', 'MS SQL Server 2005'],
+        tags: ['.NET 2.0', 'MS SQL Server 2005', 'JavaScript'],
         date: '2009',
         className: 'midwest-copier'
     }, {
