@@ -1,5 +1,13 @@
 window.rz = {
     WORKS: [{
+        title: 'Wiredrive Users',
+        imageSrc: './assets/img/wd-users.png',
+        href: 'http://www.wiredrive.com',
+        description: 'Rebuilt <a target="_new" href="http://www.wiredrive.com/">Wiredrive\'s</a> User Management portal in Ember-CLI.<br><br>It was here one could kick back and enjoy some of the finer tasks of User management: searching and assigning work, managing access roles, and, when called upon, occasionally hack the Gibson.',
+        tags: ['JavaScript', 'Ember-CLI', 'Bootstrap', 'LESS'],
+        date: '2016',
+        className: 'wd-users'
+    }, {
         title: 'Strengthenator',
         imageSrc: './assets/img/strengthenator.png',
         description: 'Made an Ember-CLI app that displays a leaderboard of client personal records for the <a target="_new" href="http://startingstrength.com/">Starting Strength</a> gym <a target="_new" href="http://www.hornstrength.com/">Horn Strength and Conditioning</a>.<br><br>The app polls a Google Spreadsheets data source and displays the ranks of various clients for various excercises.',
