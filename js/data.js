@@ -222,5 +222,12 @@ window.rz = {
         tags: ['Counter-Strike'],
         date: '2001',
         className: 'iceberg'
+    }, {
+        title: 'Tomb of the Unknown Somethings',
+        imageSrc: './assets/img/unknown.png',
+        description: 'This entry is for all the things that all of us have done which we are proud of, but due to various agreements (some <a target="_new" href="https://en.wikipedia.org/wiki/Non-disclosure_agreement">legal</a>, others a <a target="_new" href="https://en.wikipedia.org/wiki/Gentlemen%27s_agreement">gentleman\'s</a>) we can never talk about.<br><br>Buy me a beer and ask me about them sometime. I mean, I still won\'t tell you, but hey, cheer up! At least we\'ll have beer!',
+        tags: ['REDACTED', 'REDACTED', 'REDACTED', 'REDACTED', '...'],
+        date: 'Era Vulgaris',
+        className: 'unknown'
     }]
 };
