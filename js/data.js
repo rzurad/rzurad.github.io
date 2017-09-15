@@ -1,5 +1,13 @@
 window.rz = {
     WORKS: [{
+        title: 'Grauman File Viewer',
+        imageSrc: './assets/img/grauman.png',
+        href: 'http://github.com/shiftio/grauman',
+        description: 'Built an <a target="_new" href="https://shiftio.github.io/grauman/test/">HTML5 MediaPlayer and file viewer</a> supporting 360 video, progressive HTML5 video and audio, HLS, PDF documents, and images.',
+        tags: ['JavaScript', 'Mithril.js', 'Sass', 'WebGL', 'HLS', 'HTML5 Audio', 'HTML5 Video', 'PDF.js'],
+        date: '2017',
+        className: 'grauman'
+    }, {
         title: 'Wiredrive Users',
         imageSrc: './assets/img/wd-users.png',
         href: 'http://www.wiredrive.com',
