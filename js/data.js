@@ -1,5 +1,19 @@
 window.rz = {
     WORKS: [{
+        title: 'Dagger',
+        imageSrc: './assets/img/dagger.png',
+        description: 'Built a proof-of-concept for a distributed task processing pipeline for media encoding services. Tasks are organized in Directed Acyclic Graphs and executed asynchrnously via a cluster of workers.',
+        tags: ['Java', 'AMQP', 'Redis'],
+        date: '2018',
+        className: 'dagger'
+    }, {
+        title: 'FFmpeg CUDA Overlay Filter',
+        imageSrc: './assets/img/cuda.png',
+        description: 'Created a CUDA accelerated video alpha blending filter for ffmpeg which operates ~3x faster than its CPU counterpart.<br><br>It was here two of my addictions, ffmpeg and computer graphics, combined forces in Trainspotting proportions...<a href="https://www.youtube.com/watch?v=jQvUBf5l7Vw" target="_blank">&lt;cue music&gt;</a>',
+        tags: ['C', 'ffmpeg', 'H.264', 'CUDA', 'NVENC', 'NVDEC'],
+        date: '2017',
+        className: 'gpu'
+    }, {
         title: 'Grauman File Viewer',
         imageSrc: './assets/img/grauman.png',
         href: 'http://github.com/shiftio/grauman',
@@ -7,6 +21,20 @@ window.rz = {
         tags: ['JavaScript', 'Mithril.js', 'Sass', 'WebGL', 'HLS', 'HTML5 Audio', 'HTML5 Video', 'PDF.js'],
         date: '2017',
         className: 'grauman'
+    }, {
+        title: 'Campfire',
+        imageSrc: './assets/img/campfire.png',
+        description: 'Built a digital event dashboard for <a target="_blank" href="http://www.northsyracusefire.com/">North Syracuse\'s Bravest.</a><br><br>It\'s a simple dashboard that lets fire stations easily display event schedules, which frees them up to do what they do best: being absolute badasses.',
+        tags: ['JavaScript'],
+        date: '2017',
+        className: 'campfire'
+    }, {
+        title: 'Wiredrive Ingest',
+        imageSrc: './assets/img/thumbnailer.png',
+        description: 'Rewrote and supported the File Ingest service, adding support for video file proxy generation and 360 video.<br><br>This space intentionally left blank for a future snarky, sarcastic non-sequitur.',
+        tags: ['PHP', 'ffmpeg', 'C', 'ImageMagick', 'AMQP'],
+        date: '2016',
+        className: 'thumbnailer'
     }, {
         title: 'Wiredrive Users',
         imageSrc: './assets/img/wd-users.png',
