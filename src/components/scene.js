@@ -33,26 +33,33 @@ function createScene(container, video) {
     const camera = new THREE.OrthographicCamera();
     const renderer = new THREE.WebGLRenderer();
 
+    const containerHeight = container.clientHeight;
+    const containerWidth = container.clientWidth;
+
+    console.assert(containerHeight > 0, 'Scene containerHeight is not greater than 0!: ' + containerHeight);
+    console.assert(containerWidth > 0, 'Scene containerWidth is not greater than 0!: ' + containerWidth);
+
+    const videoHeight = 1080;
+    const videoWidth = 720;
+
+    debugger;
+    const scaledHeight = containerHeight > containerWidth ?
+        containerHeight : // scale to height
+        (containerWidth / videoWidth * videoWidth) * videoHeight / videoWidth; // scaling by width, preserve aspect ratio of height
+
+    const scaledWidth = containerHeight > containerWidth ?
+        (containerHeight / videoHeight * videoHeight) * videoWidth / videoHeight : // scale to preserve aspect ratio
+        containerWidth;// scale to width
+
     container.appendChild(renderer.domElement);
-
-    const uniforms = {};
-
-    const geometry = new THREE.PlaneGeometry(720, 480, 1);
+    const geometry = new THREE.PlaneGeometry(scaledWidth, scaledHeight, 1);
     const texture = new THREE.VideoTexture(video);
 
     texture.minFilter = THREE.LinearFilter;
     texture.magFilter = THREE.LinearFilter;
     texture.format = THREE.RGBFormat;
 
-    uniforms.frame = { type: 't', value: texture };
-
-    // const materialV = new THREE.MeshBasicMaterial({ /* color: new THREE.Color(0xacb6e5),*/ map: texture });
-    const material = new THREE.ShaderMaterial({
-        uniforms,
-        fragmentShader: fragmentShader(),
-        vertexShader: vertexShader()
-    });
-
+    const material = new THREE.MeshBasicMaterial({ /* color: new THREE.Color(0xacb6e5),*/ map: texture });
     const plane = new THREE.Mesh(geometry, material);
 
     scene.add(plane);
@@ -91,8 +98,8 @@ function createScene(container, video) {
         camera.bottom = height / -2;
         camera.updateProjectionMatrix();
 
-        geometry.width = 720;
-        geometry.height = 480;
+        geometry.width = width;
+        geometry.height = height;
 
         renderer.setSize(width, height);
     }

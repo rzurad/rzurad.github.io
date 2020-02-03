@@ -1,5 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
 import createScene from './scene';
+
+const Container = styled.div`
+    position: fixed;
+    z-index: -10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    .canvas-container {
+        height: 100%;
+        width: 100%;
+    }
+`;
 
 class Background extends React.Component {
     constructor(props) {
@@ -35,20 +53,20 @@ class Background extends React.Component {
 
     render() {
         return (
-            <>
+            <Container>
                 <video id="video"
                     autoPlay
                     loop
                     muted
-                    src="/480p.mp4"
+                    src="/1080p.mp4"
                     hidden
                     ref={this.videoRef}
                 />
-                <div id="canvas-container"
+                <div
                     className="canvas-container"
                     ref={this.containerRef}
                 />
-            </>
+            </Container>
         );
     }
 }
